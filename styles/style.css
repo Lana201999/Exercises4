@@ -85,7 +85,7 @@ button:focus{
 /* Jumbotron */
 
 .jumbotron {
-  background-image: url("../images/header.jpg");
+  background-image: url("./header-bike.jpg");
   border-radius: 0;
   color: #fff;
 }
@@ -116,7 +116,11 @@ button:focus{
 /* Article */
 
 .article {
+  border: 1px solid rgb(219, 213, 213);
+  display: flex;
   margin-bottom: 2em;
+  padding: 5%;
+  margin: 2%;
 }
 
 .article__image {
@@ -141,6 +145,11 @@ button:focus{
   text-decoration: none;
 }
 
+.learn-article{
+  display: flex;
+  justify-content:space-between;
+
+}
 .article__read-more .fa {
   margin-right: 0.5em;
   color: #c05326;
